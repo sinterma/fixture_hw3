@@ -12,4 +12,4 @@ def test_something(w_size):
 def test_something2(w_size):
     browser.open('https://google.com')
     browser.element('[name="q"]').should(be.blank).type('tyuudjjj222').press_enter()
-    browser.element('[id="botstuff"]').should(have.text('Your search - tyuudjjj222 - did not match any documents.'))
+    browser.element('[id="botstuff"]').should(have.text('Your search - tyuudjjj222 - did not match any documents.git rm -r --cached .idea'))
